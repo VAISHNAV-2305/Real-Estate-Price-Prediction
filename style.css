@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') no-repeat center center fixed;
+  background-size: cover;
+  backdrop-filter: blur(3px);
+}
+
+.container {
+  max-width: 450px;
+  margin: 60px auto;
+  padding: 35px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 25px;
+  color: #333;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #444;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 12px;
+  background-color: #00796B;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #004d40;
+}
+
+#output {
+  margin-top: 25px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #2E7D32;
+}
