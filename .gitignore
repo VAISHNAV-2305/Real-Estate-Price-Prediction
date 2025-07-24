@@ -1,0 +1,34 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+*
+    
+    # Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Model and config files
+*.pickle
+*.pkl
+*.json
+
+# Environment variables
+.env
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Flask cache and logs
+instance/
+*.log
+
+# Pytest cache
+.pytest_cache/
