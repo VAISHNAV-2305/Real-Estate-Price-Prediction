@@ -10,7 +10,6 @@ Perform exploratory data analysis (EDA)
 
 Build regression models to predict house prices based on features like location, square footage, number of bedrooms, and bathrooms.
 
-Machine Learning:
 Several machine learning algorithms were tested, including:
 
 Linear Regression
